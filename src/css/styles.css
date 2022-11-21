@@ -131,7 +131,7 @@ li {
   border-radius: 4px;
   padding: 5px 10px;
   margin: 0px auto 10px;
-  min-width: 100px;
+  min-width: 200px;
   text-align: center;
 
   color: var(--primary-white-color);
@@ -140,8 +140,13 @@ li {
   cursor: pointer;
   font-family: inherit;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.88;
+  font-size: 18px;
+  line-height: 1.6;
   letter-spacing: 0.06em;
   border: none;
 }
+
+.load-more:hover {
+  filter: brightness(100%) saturate(120%);/* background-color: var(--accent-color-hover); */
+}
+
