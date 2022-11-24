@@ -66,9 +66,6 @@ function onLoadMore(evt) {
         lightbox.refresh();
         const totalPage = data.totalHits / 40;
 
-        console.log("TotalHits: ", data.totalHits);
-        console.log('Hits: ', data.hits)
-
         if(totalPage <= page) {
             refs,loadMoreBtn.style.display = 'none';
             Notiflix.Notify.warning("We're sorry, but you've reached the end of search results."
